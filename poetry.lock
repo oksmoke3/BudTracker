@@ -1,0 +1,38 @@
+[[package]]
+category = "main"
+description = "Internationalization utilities"
+name = "babel"
+optional = false
+python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*"
+version = "2.8.0"
+
+[package.dependencies]
+pytz = ">=2015.7"
+
+[[package]]
+category = "main"
+description = "World timezone definitions, modern and historical"
+name = "pytz"
+optional = false
+python-versions = "*"
+version = "2020.1"
+
+[[package]]
+category = "main"
+description = "Calendar and DateEntry widgets for Tkinter"
+name = "tkcalendar"
+optional = false
+python-versions = "*"
+version = "1.6.1"
+
+[package.dependencies]
+babel = "*"
+
+[metadata]
+content-hash = "70876afca9ea1e0fd2998eb3016d7af647868610acffe324a12634105f135238"
+python-versions = "^3.7"
+
+[metadata.hashes]
+babel = ["1aac2ae2d0d8ea368fa90906567f5c08463d98ade155c0c4bfedd6a0f7160e38", "d670ea0b10f8b723672d3a6abeb87b565b244da220d76b4dba1b66269ec152d4"]
+pytz = ["a494d53b6d39c3c6e44c3bec237336e14305e4f29bbf800b599253057fbb79ed", "c35965d010ce31b23eeb663ed3cc8c906275d6be1a34393a1d73a41febf4a048"]
+tkcalendar = ["5edf958c0a59429e90309e9b805b2e229192bbcab952460247204d7030eea5cf", "9d3a80816a7b32d64fab696fa3d2a007fb23c87953267d5e343a38ff4cd7c15c", "c3ac34ab268734377ce73407893e8a5765e288aecbbb55136fb3ccea98006a96"]
